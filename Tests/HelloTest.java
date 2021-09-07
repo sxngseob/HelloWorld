@@ -32,7 +32,7 @@ class HelloTest {
 
     @Test
     void mainTest() {
-       // Hello.main(null);
+        Hello.main(null);
         assertTrue(outContent.toString().contains("Hello, World!"), "Check spelling, spacing, and punctuation.");
 
     }
